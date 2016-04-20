@@ -1,0 +1,69 @@
+name: UHC
+version: 1.0
+main: me.nickpowns.uhc.main
+description: UHC plugin!
+author: nickpowns
+
+commands:
+    uhcstart:
+        usage: /<command>
+        description: Start the UHC!
+    uhcforcestart:
+        usage: /<command>
+        description: Force the game to start.
+    uhccreate:
+        usage: /<command>
+        description: Create the UHC arena.
+    uhcclear:
+        usage: /<command>
+        description: Clear the UHC arena.
+    uhcabort:
+        usage: /<command>
+        description: Abort the UHC.
+    joingreen:
+        usage: /<command>
+        description: Join the green team.
+    joinblue:
+        usage: /<command>
+        description: Join the blue team.
+    joinred:
+        usage: /<command>
+        description: Join the red team.
+    joinyellow:
+        usage: /<command>
+        description: Join the yellow team.
+    joinpurple:
+        usage: /<command>
+        description: Join the purple team.
+    joinblack:
+        usage: /<command>
+        description: Join the black team.
+    leaveteam:
+        usage: /<command>
+        description: Leave your current team.
+    ghead:
+        usage: /<command>
+        description: Gives a golden head.
+    shead:
+        usage: /<command>
+        description: Gives a speed head.
+    arrays:
+        usage: /<command>
+        description: Check the arraylists where ur in.
+        
+permission:
+    uhc.start:
+        description: Start the UHC
+        default: op
+    uhc.create:
+        description: Create the UHC arena.
+        default: op
+    uhc.clear:
+        description: Clear the UHC arena.
+        default: op
+    uhc.abort:
+        description: Abort the UHC.
+        default: op
+    uhc.signcreate:
+        description: Create the UHC signs.
+        default: op
